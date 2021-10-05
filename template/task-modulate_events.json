@@ -1,0 +1,36 @@
+{
+    "onset": {
+        "Description": "true onset time of the event"
+	 },
+    "duration": {
+	     "Description": "true duration time of the event (approximated)"
+    },
+
+    "dsgn_onset": {
+	     "Description": "The designed onset time of the event",
+	     "Units":"seconds"
+	 },
+    "dsgn_duration": {
+        "Description": "The designed duration time of the event",
+	     "Units":"seconds"
+	 },
+    "trial_type": {
+	     "Description": "event type",
+	     "Levels": {
+		 "fb_v_pos":"feedback screen (positive valence goal)",
+		 "fb_v_neg":"feedback screen (negative valence goal)",
+		 "fb_a_pos":"feedback screen (positive arousal goal)",
+		 "fb_a_neg":"feedback screen (negative arousal goal)",
+		 "feel":"self-regulation of affect processing",
+		 "rest":"fixation cross",
+		 "finish":"completion screen"
+		 }
+    },
+    "fb_valence": {
+        "Description": "y-coordinate of feedback marker (y-axis = valence)"
+    },
+    "fb_arousal": {
+        "Description": "x-coordinate of feedback marker (x-axis = arousal)"
+    }
+}
+

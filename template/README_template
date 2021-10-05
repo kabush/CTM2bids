@@ -1,0 +1,42 @@
+# ----------------------------------------
+# ----------------------------------------
+  CONTRIBUTORS:
+# ----------------------------------------
+
+Keith Bush, PhD (2021)
+
+Ivan Messias (2020)
+     BIDS specification testing and validation
+
+Kevin Fialkowski (2020)
+     BIDS specification testing and validation
+
+# ----------------------------------------
+# ----------------------------------------
+    OVERVIEW: 
+# ----------------------------------------
+# ----------------------------------------
+
+The dataset represents the raw data supporting the National Science
+Foundation Award (BCS-1735820), titled "Cognitive Control Theoretic
+Mechanisms of Real-time fMRI-Guided Neuromodulation"
+
+# ----------------------------------------
+# ----------------------------------------
+    NOTES:
+# ----------------------------------------
+# ----------------------------------------
+
+BOLD SIGNAL
+
+The bold signal was acquired using the Philips Achieva seq+z slice timing
+with 37 slices. Based on TR=2.0 s, this sequence creates an inter-slice
+interval of 0.0541 s.  The following array has been copied into the SliceTime 
+arrays of the template json files.
+
+"SliceTiming": [0.0000,0.0541,0.1082,0.1623,0.2164,0.2705,0.3246,
+	        0.3787,0.4328,0.4869,0.5410,0.5951,0.6492,0.7033,
+		0.7574,0.8115,0.8656,0.9197,0.9738,1.0279,1.0820,
+		1.1361,1.1902,1.2443,1.2984,1.3525,1.4066,1.4607,
+		1.5148,1.5689,1.6230,1.6771,1.7312,1.7853,1.8394,
+		1.8935,1.9476]

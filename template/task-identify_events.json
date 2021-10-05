@@ -1,0 +1,40 @@
+{
+    "onset": {
+        "Description": "true onset time of the event"
+	 },
+    "duration": {
+	     "Description": "true duration time of the event (approximated)"
+    },
+    "trial_type": {
+	     "Description": "event type",
+	     "Levels": {
+		 "ex_stim":"presentation of image stimulus (extrinsic trial)",
+		 "in_stim":"presentation of image stimulus (cued-recall trial)",
+		 "in_prep":"presentation of recall prepration cue (cued-recall trial)",
+		 "in_feel":"presentation of recall cue (cue-recall trial)"
+		 }
+    },
+    "dsgn_onset": {
+	     "Description": "The designed onset time of the event",
+	     "Units":"seconds"
+	 },
+    "dsgn_duration": {
+        "Description": "The designed duration time of the event",
+	     "Units":"seconds"
+	 }, 
+    "database": {
+        "Description": "International Affective Picture System"
+	 }, 
+    "identifier": {
+        "Description": "Image ID from database"
+	 }, 
+    "valence": {
+        "Description": "Normative rating of valence",
+	     "Units":"Mean of 9-point Likert scale [1-9]"
+	 }, 
+    "arousal": {
+        "Description": "Normative rating of arousal",
+	     "Units":"Mean of 9-point Likert scale [1-9]"
+	 }
+
+}
